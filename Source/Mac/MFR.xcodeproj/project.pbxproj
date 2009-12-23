@@ -1,0 +1,478 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD58280DA1D0D100B32029 /* MyDocument.xib */; };
+		1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1DDD582A0DA1D0D100B32029 /* MainMenu.xib */; };
+		554696A110E1408200E60854 /* ogrehead.mesh in Copy media */ = {isa = PBXBuildFile; fileRef = 55C9A63910DA657500F68CDD /* ogrehead.mesh */; };
+		554696A210E1408200E60854 /* Ogre.material in Copy media */ = {isa = PBXBuildFile; fileRef = 55C9A63710DA657500F68CDD /* Ogre.material */; };
+		554696A310E1408200E60854 /* WeirdEye.png in Copy media */ = {isa = PBXBuildFile; fileRef = 55C9A63210DA657500F68CDD /* WeirdEye.png */; };
+		554696A410E1408200E60854 /* dirt01.jpg in Copy media */ = {isa = PBXBuildFile; fileRef = 55C9A63310DA657500F68CDD /* dirt01.jpg */; };
+		554696A510E1408200E60854 /* GreenSkin.jpg in Copy media */ = {isa = PBXBuildFile; fileRef = 55C9A63410DA657500F68CDD /* GreenSkin.jpg */; };
+		554696A610E1408200E60854 /* spheremap.png in Copy media */ = {isa = PBXBuildFile; fileRef = 55C9A63510DA657500F68CDD /* spheremap.png */; };
+		554696F310E190CF00E60854 /* Plugin_BSPSceneManager.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55C9A65D10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib */; };
+		5579D43110DA5AAF005E4FC3 /* MyOgre.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5579D43010DA5AAF005E4FC3 /* MyOgre.mm */; };
+		557A4BE410E2C21E008807E6 /* Ogre.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A4BE310E2C21E008807E6 /* Ogre.framework */; };
+		557A4BEF10E2C271008807E6 /* libboost_date_time-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A4BEE10E2C271008807E6 /* libboost_date_time-mt.dylib */; };
+		557A4BF110E2C271008807E6 /* libboost_thread-mt.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 557A4BF010E2C271008807E6 /* libboost_thread-mt.dylib */; };
+		55C9A61E10DA625600F68CDD /* MyDocument.mm in Sources */ = {isa = PBXBuildFile; fileRef = 55C9A61D10DA625600F68CDD /* MyDocument.mm */; };
+		55C9A63A10DA657500F68CDD /* media.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A62E10DA657500F68CDD /* media.cfg */; };
+		55C9A63B10DA657500F68CDD /* plugins.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A62F10DA657500F68CDD /* plugins.cfg */; };
+		55C9A63C10DA657500F68CDD /* resources.cfg in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A63010DA657500F68CDD /* resources.cfg */; };
+		55C9A63D10DA657500F68CDD /* WeirdEye.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A63210DA657500F68CDD /* WeirdEye.png */; };
+		55C9A63E10DA657500F68CDD /* dirt01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A63310DA657500F68CDD /* dirt01.jpg */; };
+		55C9A63F10DA657500F68CDD /* GreenSkin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A63410DA657500F68CDD /* GreenSkin.jpg */; };
+		55C9A64010DA657500F68CDD /* spheremap.png in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A63510DA657500F68CDD /* spheremap.png */; };
+		55C9A64110DA657500F68CDD /* Ogre.material in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A63710DA657500F68CDD /* Ogre.material */; };
+		55C9A64210DA657500F68CDD /* ogrehead.mesh in Resources */ = {isa = PBXBuildFile; fileRef = 55C9A63910DA657500F68CDD /* ogrehead.mesh */; };
+		55C9A65E10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C9A65D10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib */; };
+		55C9A66010DA7D5700F68CDD /* RenderSystem_GL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C9A65F10DA7D5700F68CDD /* RenderSystem_GL.dylib */; };
+		55C9A66210DA7D6000F68CDD /* RenderSystem_GL.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55C9A65F10DA7D5700F68CDD /* RenderSystem_GL.dylib */; };
+		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
+		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
+		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
+		8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		554696B410E1409000E60854 /* Copy media */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = Media;
+			dstSubfolderSpec = 7;
+			files = (
+				554696A110E1408200E60854 /* ogrehead.mesh in Copy media */,
+				554696A210E1408200E60854 /* Ogre.material in Copy media */,
+				554696A310E1408200E60854 /* WeirdEye.png in Copy media */,
+				554696A410E1408200E60854 /* dirt01.jpg in Copy media */,
+				554696A510E1408200E60854 /* GreenSkin.jpg in Copy media */,
+				554696A610E1408200E60854 /* spheremap.png in Copy media */,
+			);
+			name = "Copy media";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		554696FA10E190D500E60854 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55C9A65C10DA7CF600F68CDD /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				554696F310E190CF00E60854 /* Plugin_BSPSceneManager.dylib in CopyFiles */,
+				55C9A66210DA7D6000F68CDD /* RenderSystem_GL.dylib in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		089C1660FE840EACC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
+		13E42FBA07B3F13500E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
+		1DDD58290DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MyDocument.xib; sourceTree = "<group>"; };
+		1DDD582B0DA1D0D100B32029 /* English */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = English; path = English.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2564AD2C0F5327BB00F57823 /* MFR_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFR_Prefix.pch; sourceTree = "<group>"; };
+		2A37F4B0FDCFA73011CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A37F4BAFDCFA73011CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = English; path = English.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		5579D42F10DA5AAF005E4FC3 /* MyOgre.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyOgre.h; sourceTree = "<group>"; };
+		5579D43010DA5AAF005E4FC3 /* MyOgre.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyOgre.mm; sourceTree = "<group>"; };
+		557A4BE310E2C21E008807E6 /* Ogre.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Ogre.framework; path = /Users/noobs/mmorts/sdk/bin/Ogre.framework; sourceTree = "<absolute>"; };
+		557A4BEE10E2C271008807E6 /* libboost_date_time-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_date_time-mt.dylib"; path = "/Users/noobs/mmorts/sdk/lib/boost/libboost_date_time-mt.dylib"; sourceTree = "<absolute>"; };
+		557A4BF010E2C271008807E6 /* libboost_thread-mt.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libboost_thread-mt.dylib"; path = "/Users/noobs/mmorts/sdk/lib/boost/libboost_thread-mt.dylib"; sourceTree = "<absolute>"; };
+		55C9A61C10DA625600F68CDD /* MyDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyDocument.h; sourceTree = "<group>"; };
+		55C9A61D10DA625600F68CDD /* MyDocument.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyDocument.mm; sourceTree = "<group>"; };
+		55C9A62E10DA657500F68CDD /* media.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = media.cfg; sourceTree = "<group>"; };
+		55C9A62F10DA657500F68CDD /* plugins.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = plugins.cfg; sourceTree = "<group>"; };
+		55C9A63010DA657500F68CDD /* resources.cfg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = resources.cfg; sourceTree = "<group>"; };
+		55C9A63210DA657500F68CDD /* WeirdEye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WeirdEye.png; sourceTree = "<group>"; };
+		55C9A63310DA657500F68CDD /* dirt01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dirt01.jpg; sourceTree = "<group>"; };
+		55C9A63410DA657500F68CDD /* GreenSkin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = GreenSkin.jpg; sourceTree = "<group>"; };
+		55C9A63510DA657500F68CDD /* spheremap.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spheremap.png; sourceTree = "<group>"; };
+		55C9A63710DA657500F68CDD /* Ogre.material */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ogre.material; sourceTree = "<group>"; };
+		55C9A63910DA657500F68CDD /* ogrehead.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = ogrehead.mesh; sourceTree = "<group>"; };
+		55C9A65D10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Plugin_BSPSceneManager.dylib; path = ../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/Plugin_BSPSceneManager.dylib; sourceTree = SOURCE_ROOT; };
+		55C9A65F10DA7D5700F68CDD /* RenderSystem_GL.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; name = RenderSystem_GL.dylib; path = ../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/RenderSystem_GL.dylib; sourceTree = SOURCE_ROOT; };
+		8D15AC360486D014006FF6A4 /* MFR-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MFR-Info.plist"; sourceTree = "<group>"; };
+		8D15AC370486D014006FF6A4 /* MFR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D15AC330486D014006FF6A4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC340486D014006FF6A4 /* Cocoa.framework in Frameworks */,
+				55C9A65E10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib in Frameworks */,
+				55C9A66010DA7D5700F68CDD /* RenderSystem_GL.dylib in Frameworks */,
+				557A4BE410E2C21E008807E6 /* Ogre.framework in Frameworks */,
+				557A4BEF10E2C271008807E6 /* libboost_date_time-mt.dylib in Frameworks */,
+				557A4BF110E2C271008807E6 /* libboost_thread-mt.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A7FEA54F5311CA2CBB /* Cocoa.framework */,
+				557A4BE310E2C21E008807E6 /* Ogre.framework */,
+			);
+			name = "Linked Frameworks";
+			sourceTree = "<group>";
+		};
+		1058C7A8FEA54F5311CA2CBB /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4C4FDCFA73011CA2CEA /* AppKit.framework */,
+				13E42FBA07B3F13500E4EEF1 /* CoreData.framework */,
+				2A37F4C5FDCFA73011CA2CEA /* Foundation.framework */,
+				55C9A65D10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib */,
+				55C9A65F10DA7D5700F68CDD /* RenderSystem_GL.dylib */,
+				557A4BEE10E2C271008807E6 /* libboost_date_time-mt.dylib */,
+				557A4BF010E2C271008807E6 /* libboost_thread-mt.dylib */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		19C28FB0FE9D524F11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D15AC370486D014006FF6A4 /* MFR.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A37F4AAFDCFA73011CA2CEA /* MFR */ = {
+			isa = PBXGroup;
+			children = (
+				2A37F4ABFDCFA73011CA2CEA /* Classes */,
+				2A37F4AFFDCFA73011CA2CEA /* Other Sources */,
+				2A37F4B8FDCFA73011CA2CEA /* Resources */,
+				2A37F4C3FDCFA73011CA2CEA /* Frameworks */,
+				19C28FB0FE9D524F11CA2CBB /* Products */,
+			);
+			name = MFR;
+			sourceTree = "<group>";
+		};
+		2A37F4ABFDCFA73011CA2CEA /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				55C9A61C10DA625600F68CDD /* MyDocument.h */,
+				55C9A61D10DA625600F68CDD /* MyDocument.mm */,
+				5579D42F10DA5AAF005E4FC3 /* MyOgre.h */,
+				5579D43010DA5AAF005E4FC3 /* MyOgre.mm */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		2A37F4AFFDCFA73011CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				2564AD2C0F5327BB00F57823 /* MFR_Prefix.pch */,
+				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		2A37F4B8FDCFA73011CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5596F84310E0EA9900992D91 /* Media */,
+				55C9A62E10DA657500F68CDD /* media.cfg */,
+				55C9A62F10DA657500F68CDD /* plugins.cfg */,
+				55C9A63010DA657500F68CDD /* resources.cfg */,
+				2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */,
+				8D15AC360486D014006FF6A4 /* MFR-Info.plist */,
+				089C165FFE840EACC02AAC07 /* InfoPlist.strings */,
+				1DDD58280DA1D0D100B32029 /* MyDocument.xib */,
+				1DDD582A0DA1D0D100B32029 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2A37F4C3FDCFA73011CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1058C7A6FEA54F5311CA2CBB /* Linked Frameworks */,
+				1058C7A8FEA54F5311CA2CBB /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5596F84310E0EA9900992D91 /* Media */ = {
+			isa = PBXGroup;
+			children = (
+				55C9A63810DA657500F68CDD /* Meshes */,
+				55C9A63610DA657500F68CDD /* Materials */,
+				55C9A63110DA657500F68CDD /* Textures */,
+			);
+			name = Media;
+			sourceTree = "<group>";
+		};
+		55C9A63110DA657500F68CDD /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				55C9A63210DA657500F68CDD /* WeirdEye.png */,
+				55C9A63310DA657500F68CDD /* dirt01.jpg */,
+				55C9A63410DA657500F68CDD /* GreenSkin.jpg */,
+				55C9A63510DA657500F68CDD /* spheremap.png */,
+			);
+			name = Textures;
+			sourceTree = "<group>";
+		};
+		55C9A63610DA657500F68CDD /* Materials */ = {
+			isa = PBXGroup;
+			children = (
+				55C9A63710DA657500F68CDD /* Ogre.material */,
+			);
+			name = Materials;
+			sourceTree = "<group>";
+		};
+		55C9A63810DA657500F68CDD /* Meshes */ = {
+			isa = PBXGroup;
+			children = (
+				55C9A63910DA657500F68CDD /* ogrehead.mesh */,
+			);
+			name = Meshes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D15AC270486D014006FF6A4 /* MFR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "MFR" */;
+			buildPhases = (
+				8D15AC2B0486D014006FF6A4 /* Resources */,
+				8D15AC300486D014006FF6A4 /* Sources */,
+				8D15AC330486D014006FF6A4 /* Frameworks */,
+				55C9A65C10DA7CF600F68CDD /* CopyFiles */,
+				554696FA10E190D500E60854 /* CopyFiles */,
+				554696B410E1409000E60854 /* Copy media */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MFR;
+			productInstallPath = "$(HOME)/Applications";
+			productName = MFR;
+			productReference = 8D15AC370486D014006FF6A4 /* MFR.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A37F4A9FDCFA73011CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "MFR" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 2A37F4AAFDCFA73011CA2CEA /* MFR */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D15AC270486D014006FF6A4 /* MFR */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D15AC2B0486D014006FF6A4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55C9A63A10DA657500F68CDD /* media.cfg in Resources */,
+				55C9A63B10DA657500F68CDD /* plugins.cfg in Resources */,
+				55C9A63C10DA657500F68CDD /* resources.cfg in Resources */,
+				8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */,
+				8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */,
+				1DDD582C0DA1D0D100B32029 /* MyDocument.xib in Resources */,
+				1DDD582D0DA1D0D100B32029 /* MainMenu.xib in Resources */,
+				55C9A63D10DA657500F68CDD /* WeirdEye.png in Resources */,
+				55C9A63E10DA657500F68CDD /* dirt01.jpg in Resources */,
+				55C9A63F10DA657500F68CDD /* GreenSkin.jpg in Resources */,
+				55C9A64010DA657500F68CDD /* spheremap.png in Resources */,
+				55C9A64110DA657500F68CDD /* Ogre.material in Resources */,
+				55C9A64210DA657500F68CDD /* ogrehead.mesh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D15AC300486D014006FF6A4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D15AC320486D014006FF6A4 /* main.m in Sources */,
+				5579D43110DA5AAF005E4FC3 /* MyOgre.mm in Sources */,
+				55C9A61E10DA625600F68CDD /* MyDocument.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		089C165FFE840EACC02AAC07 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				089C1660FE840EACC02AAC07 /* English */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		1DDD58280DA1D0D100B32029 /* MyDocument.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD58290DA1D0D100B32029 /* English */,
+			);
+			name = MyDocument.xib;
+			sourceTree = "<group>";
+		};
+		1DDD582A0DA1D0D100B32029 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1DDD582B0DA1D0D100B32029 /* English */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A37F4BAFDCFA73011CA2CEA /* English */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C05733C808A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../sdk/bin\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_FIX_AND_CONTINUE = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MFR_Prefix.pch;
+				INFOPLIST_FILE = "MFR-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../sdk/lib/OGRE\"",
+					"\"$(SRCROOT)/../../sdk/lib/boost\"",
+				);
+				PRODUCT_NAME = MFR;
+			};
+			name = Debug;
+		};
+		C05733C908A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../sdk/bin/Ogre.framework\"",
+					"\"$(SRCROOT)/../../sdk/bin\"",
+				);
+				GCC_MODEL_TUNING = G5;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = MFR_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/../../sdk/bin/Ogre.framework/Headers\"/**",
+					"\"$(SRCROOT)/../../sdk/include/\"",
+				);
+				INFOPLIST_FILE = "MFR-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					"\"$(SRCROOT)/../../sdk/lib/OGRE\"",
+					"\"$(SRCROOT)/../../sdk/lib/boost\"",
+				);
+				PRODUCT_NAME = MFR;
+			};
+			name = Release;
+		};
+		C05733CC08A9546B00998B17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		C05733CD08A9546B00998B17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+				VALID_ARCHS = "i386 x86_64";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C05733C708A9546B00998B17 /* Build configuration list for PBXNativeTarget "MFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733C808A9546B00998B17 /* Debug */,
+				C05733C908A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C05733CB08A9546B00998B17 /* Build configuration list for PBXProject "MFR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C05733CC08A9546B00998B17 /* Debug */,
+				C05733CD08A9546B00998B17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A37F4A9FDCFA73011CA2CEA /* Project object */;
+}

@@ -1,0 +1,313 @@
+TMFR
+v7
+r0
+t282732429.745204
+cCheck dependencies
+cProcessInfoPlistFile /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Info.plist MFR-Info.plist
+cCpResource build/Debug/MFR.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+cCopyStringsFile /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCompileXIB /Users/noobs/Documents/Ogre/MFR/English.lproj/MyDocument.xib
+cCompileXIB /Users/noobs/Documents/Ogre/MFR/English.lproj/MainMenu.xib
+cProcessPCH /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-dzlcsnmmcewstdcaherenecqtxvr/MFR_Prefix.pch.gch MFR_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/MyDocument.o /Users/noobs/Documents/Ogre/MFR/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/main.o /Users/noobs/Documents/Ogre/MFR/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/MacOS/MFR normal x86_64
+cTouch /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/noobs/Documents/Ogre/MFR/English.lproj/Credits.rtf
+c000000004B29DCF300000000000001B4
+t1261034739
+s436
+
+N/Users/noobs/Documents/Ogre/MFR/English.lproj/InfoPlist.strings
+c000000004B29DCF3000000000000002D
+t1261034739
+s45
+
+N/Users/noobs/Documents/Ogre/MFR/English.lproj/MainMenu.xib
+c000000004B29DCF3000000000002ADBE
+t1261034739
+s175550
+
+N/Users/noobs/Documents/Ogre/MFR/English.lproj/MyDocument.xib
+c000000004B29DCF30000000000002935
+t1261034739
+s10549
+
+N/Users/noobs/Documents/Ogre/MFR/MFR_Prefix.pch
+c000000004B29DCF30000000000000089
+t1261034739
+s137
+i<Cocoa/Cocoa.h>
+
+N/Users/noobs/Documents/Ogre/MFR/MyDocument.h
+c000000004B29DCF300000000000000BD
+t1261034739
+s189
+i<Cocoa/Cocoa.h>
+
+N/Users/noobs/Documents/Ogre/MFR/MyDocument.m
+c000000004B29DCF300000000000009D7
+t1261034739
+s2519
+i"MyDocument.h"
+
+N/Users/noobs/Documents/Ogre/MFR/MyDocument.mm
+c000000004B29DCF300000000000009D7
+t1261034739
+s2519
+i"MyDocument.h"
+
+N/Users/noobs/Documents/Ogre/MFR/Ogre.framework/Ogre
+c000000004B28F6BF00000000008559A4
+t1260975807
+s8739236
+
+N/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app
+t1261039629
+s102
+
+N/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Info.plist
+t1261034744
+s1298
+
+N/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/MacOS/MFR
+t1261039629
+s10856
+
+N/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/PkgInfo
+t1261034744
+s8
+
+N/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/Credits.rtf
+t1261034744
+s436
+
+N/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1261034744
+s92
+
+N/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/MainMenu.nib
+t1261034744
+s33227
+
+N/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/MyDocument.nib
+t1261034744
+s3544
+
+N/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/MFR.LinkFileList
+c000000004B29DCF800000000000000C0
+t1261034744
+s192
+
+N/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/MyDocument.o
+t1261039628
+s19324
+
+N/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/main.o
+t1261039628
+s4984
+
+N/Users/noobs/Documents/Ogre/MFR/libFreeImage.a
+c00000000455416040000000000441AC0
+t1163138564
+s4463296
+
+N/Users/noobs/Documents/Ogre/MFR/libOIS.a
+c00000000477DF8B600000000000844C8
+t1199438006
+s541896
+
+N/Users/noobs/Documents/Ogre/MFR/libboost_date_time-mt.dylib
+c000000004B29EDB50000000000017BD8
+t1261039029
+s97240
+
+N/Users/noobs/Documents/Ogre/MFR/libboost_thread-mt.dylib
+c000000004B29EDB50000000000019678
+t1261039029
+s104056
+
+N/Users/noobs/Documents/Ogre/MFR/libboost_thread.dylib
+c000000004B29EDB600000000000462C0
+t1261039030
+s287424
+
+N/Users/noobs/Documents/Ogre/MFR/libfreetype.a
+c000000004775091B00000000001178FC
+t1198852379
+s1145084
+
+N/Users/noobs/Documents/Ogre/MFR/libzzip.a
+c00000000478D23D60000000000013034
+t1200432086
+s77876
+
+N/Users/noobs/Documents/Ogre/MFR/main.m
+c000000004B29DCF300000000000000E9
+t1261034739
+s233
+i<Cocoa/Cocoa.h>
+
+N/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-aywjkxyaltzzxxgnwpcszylhjjaj/MFR_Prefix.pch.gch
+t1261034750
+s54212368
+
+N/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-dzlcsnmmcewstdcaherenecqtxvr/MFR_Prefix.pch.gch
+t1261039627
+s54212368
+
+N/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-fzkjggosngobtgdwwwhjavcearzp/MFR_Prefix.pch.gch
+t2
+s0
+
+NMFR-Info.plist
+c000000004B29DCF300000000000005CA
+t1261034739
+s1482
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies282732418#282732419#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/MyDocument.o /Users/noobs/Documents/Ogre/MFR/MyDocument.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s282732427.738508
+e282732428.060256
+r1
+xCompileC
+xbuild/MFR.build/Debug/MFR.build/Objects-normal/x86_64/MyDocument.o
+x/Users/noobs/Documents/Ogre/MFR/MyDocument.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/noobs/Documents/Ogre/MFR/MyDocument.m282732427#282732428#0(0"0(0#0#44"/Users/noobs/Documents/Ogre/MFR/MyDocument.m4300885448#1339"    cd /Users/noobs/Documents/Ogre/MFR    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-generated-files.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-project-headers.hmap -F/Users/noobs/Documents/Ogre/MFR/build/Debug -F/Users/noobs/Documents/Ogre/MFR -I/Users/noobs/Documents/Ogre/MFR/build/Debug/include -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/DerivedSources/x86_64 -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/DerivedSources -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-dzlcsnmmcewstdcaherenecqtxvr/MFR_Prefix.pch -c /Users/noobs/Documents/Ogre/MFR/MyDocument.m -o /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/MyDocument.o0#
+
+CCompileC build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/MyDocument.o /Users/noobs/Documents/Ogre/MFR/MyDocument.mm normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CCompileC build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/main.o /Users/noobs/Documents/Ogre/MFR/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s282732427.739929
+e282732428.060464
+r1
+xCompileC
+xbuild/MFR.build/Debug/MFR.build/Objects-normal/x86_64/main.o
+x/Users/noobs/Documents/Ogre/MFR/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@46"Compile /Users/noobs/Documents/Ogre/MFR/main.m282732427#282732428#0(0"0(0#0#38"/Users/noobs/Documents/Ogre/MFR/main.m4300885448#1327"    cd /Users/noobs/Documents/Ogre/MFR    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-generated-files.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-project-headers.hmap -F/Users/noobs/Documents/Ogre/MFR/build/Debug -F/Users/noobs/Documents/Ogre/MFR -I/Users/noobs/Documents/Ogre/MFR/build/Debug/include -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/DerivedSources/x86_64 -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/DerivedSources -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-dzlcsnmmcewstdcaherenecqtxvr/MFR_Prefix.pch -c /Users/noobs/Documents/Ogre/MFR/main.m -o /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/noobs/Documents/Ogre/MFR/English.lproj/MainMenu.xib
+s282727544.560548
+e282727545.090466
+r1
+xCompileXIB
+x/Users/noobs/Documents/Ogre/MFR/English.lproj/MainMenu.xib
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib282727544#282727545#0(0"0(0#0#58"/Users/noobs/Documents/Ogre/MFR/English.lproj/MainMenu.xib4300885448#302"    cd /Users/noobs/Documents/Ogre/MFR    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/MainMenu.nib /Users/noobs/Documents/Ogre/MFR/English.lproj/MainMenu.xib0#
+
+CCompileXIB /Users/noobs/Documents/Ogre/MFR/English.lproj/MyDocument.xib
+s282727544.393373
+e282727544.655996
+r1
+xCompileXIB
+x/Users/noobs/Documents/Ogre/MFR/English.lproj/MyDocument.xib
+lSLF07#2@39"CompileXIB English.lproj/MyDocument.xib282727544#282727544#0(0"0(0#0#60"/Users/noobs/Documents/Ogre/MFR/English.lproj/MyDocument.xib4300885448#306"    cd /Users/noobs/Documents/Ogre/MFR    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/MyDocument.nib /Users/noobs/Documents/Ogre/MFR/English.lproj/MyDocument.xib0#
+
+CCopyStringsFile /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s282727544.386194
+e282727544.560430
+r1
+xCopyStringsFile
+x/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings282727544#282727544#0(0"0(0#0#63"/Users/noobs/Documents/Ogre/MFR/English.lproj/InfoPlist.strings4300885448#347"    cd /Users/noobs/Documents/Ogre/MFR    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-8 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/MFR.app/Contents/Resources/English.lproj/Credits.rtf English.lproj/Credits.rtf
+s282727544.385036
+e282727544.393265
+r1
+xCpResource
+xbuild/Debug/MFR.app/Contents/Resources/English.lproj/Credits.rtf
+xEnglish.lproj/Credits.rtf
+lSLF07#2@30"Copy English.lproj/Credits.rtf282727544#282727544#0(0"0(0#0#57"/Users/noobs/Documents/Ogre/MFR/English.lproj/Credits.rtf4300885448#330"    cd /Users/noobs/Documents/Ogre/MFR    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/noobs/Documents/Ogre/MFR/English.lproj/Credits.rtf /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Resources/English.lproj0#
+
+CLd /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/MacOS/MFR normal x86_64
+s282732428.060552
+e282732429.741602
+r1
+xLd
+x/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/MacOS/MFR
+xnormal
+xx86_64
+old: warning: in /Users/noobs/Documents/Ogre/MFR/Ogre.framework/Ogre, file is not of required architecture
+old: warning: in /Users/noobs/Documents/Ogre/MFR/libboost_date_time-mt.dylib, file is not of required architecture
+old: warning: in /Users/noobs/Documents/Ogre/MFR/libboost_thread-mt.dylib, file is not of required architecture
+old: warning: in /Users/noobs/Documents/Ogre/MFR/libFreeImage.a, missing required architecture x86_64 in file
+old: warning: in /Users/noobs/Documents/Ogre/MFR/libfreetype.a, missing required architecture x86_64 in file
+old: warning: in /Users/noobs/Documents/Ogre/MFR/libOIS.a, missing required architecture x86_64 in file
+old: warning: in /Users/noobs/Documents/Ogre/MFR/libzzip.a, missing required architecture x86_64 in file
+lSLF07#2@75"Link /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/MacOS/MFR282732428#282732429#0(755"ld: warning: in /Users/noobs/Documents/Ogre/MFR/Ogre.framework/Ogre, file is not of required architectureld: warning: in /Users/noobs/Documents/Ogre/MFR/libboost_date_time-mt.dylib, file is not of required architectureld: warning: in /Users/noobs/Documents/Ogre/MFR/libboost_thread-mt.dylib, file is not of required architectureld: warning: in /Users/noobs/Documents/Ogre/MFR/libFreeImage.a, missing required architecture x86_64 in fileld: warning: in /Users/noobs/Documents/Ogre/MFR/libfreetype.a, missing required architecture x86_64 in fileld: warning: in /Users/noobs/Documents/Ogre/MFR/libOIS.a, missing required architecture x86_64 in fileld: warning: in /Users/noobs/Documents/Ogre/MFR/libzzip.a, missing required architecture x86_64 in file7(22@92"In /Users/noobs/Documents/Ogre/MFR/Ogre.framework/Ogre, file is not of required architecture282732429#0#106#0(6@0"282732429#0#0#0#0#0"0(22@100"In /Users/noobs/Documents/Ogre/MFR/libboost_date_time-mt.dylib, file is not of required architecture282732429#106#114#0(6@0"282732429#0#0#0#0#0"0(22@97"In /Users/noobs/Documents/Ogre/MFR/libboost_thread-mt.dylib, file is not of required architecture282732429#220#111#0(6@0"282732429#0#0#0#0#0"0(22@95"In /Users/noobs/Documents/Ogre/MFR/libFreeImage.a, missing required architecture x86_64 in file282732429#331#109#0(6@0"282732429#0#0#0#0#0"0(22@94"In /Users/noobs/Documents/Ogre/MFR/libfreetype.a, missing required architecture x86_64 in file282732429#440#108#0(6@0"282732429#0#0#0#0#0"0(22@89"In /Users/noobs/Documents/Ogre/MFR/libOIS.a, missing required architecture x86_64 in file282732429#548#103#0(6@0"282732429#0#0#0#0#0"0(22@90"In /Users/noobs/Documents/Ogre/MFR/libzzip.a, missing required architecture x86_64 in file282732429#651#104#0(6@0"282732429#0#0#0#0#0"0(0#0#0"4300885448#661"    cd /Users/noobs/Documents/Ogre/MFR    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/noobs/Documents/Ogre/MFR/build/Debug -L/Users/noobs/Documents/Ogre/MFR -F/Users/noobs/Documents/Ogre/MFR/build/Debug -F/Users/noobs/Documents/Ogre/MFR -filelist /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/Objects-normal/x86_64/MFR.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Ogre -lboost_date_time-mt -lboost_thread-mt -lFreeImage -lfreetype -lOIS -lzzip -lboost_thread -o /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/MacOS/MFR0#
+
+CProcessInfoPlistFile /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Info.plist MFR-Info.plist
+s282727544.364617
+e282727544.384891
+r1
+xProcessInfoPlistFile
+x/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Info.plist
+xMFR-Info.plist
+lSLF07#2@22"Process MFR-Info.plist282727544#282727544#0(0"0(0#0#46"/Users/noobs/Documents/Ogre/MFR/MFR-Info.plist4300885448#277"    cd /Users/noobs/Documents/Ogre/MFR    builtin-infoPlistUtility MFR-Info.plist -genpkginfo /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-aywjkxyaltzzxxgnwpcszylhjjaj/MFR_Prefix.pch.gch MFR_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s282727545.090612
+e282727550.224683
+r1
+xProcessPCH
+x/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-aywjkxyaltzzxxgnwpcszylhjjaj/MFR_Prefix.pch.gch
+xMFR_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile MFR_Prefix.pch282727545#282727550#0(0"0(0#0#46"/Users/noobs/Documents/Ogre/MFR/MFR_Prefix.pch4300885448#1210"    cd /Users/noobs/Documents/Ogre/MFR    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-generated-files.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-project-headers.hmap -F/Users/noobs/Documents/Ogre/MFR/build/Debug -I/Users/noobs/Documents/Ogre/MFR/build/Debug/include -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/DerivedSources/x86_64 -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/DerivedSources -c /Users/noobs/Documents/Ogre/MFR/MFR_Prefix.pch -o /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-aywjkxyaltzzxxgnwpcszylhjjaj/MFR_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-dzlcsnmmcewstdcaherenecqtxvr/MFR_Prefix.pch.gch MFR_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s282732419.079656
+e282732427.738240
+r1
+xProcessPCH
+x/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-dzlcsnmmcewstdcaherenecqtxvr/MFR_Prefix.pch.gch
+xMFR_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile MFR_Prefix.pch282732419#282732427#0(0"0(0#0#46"/Users/noobs/Documents/Ogre/MFR/MFR_Prefix.pch5065757328748667904#1244"    cd /Users/noobs/Documents/Ogre/MFR    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-generated-files.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/MFR-project-headers.hmap -F/Users/noobs/Documents/Ogre/MFR/build/Debug -F/Users/noobs/Documents/Ogre/MFR -I/Users/noobs/Documents/Ogre/MFR/build/Debug/include -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/DerivedSources/x86_64 -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Debug/MFR.build/DerivedSources -c /Users/noobs/Documents/Ogre/MFR/MFR_Prefix.pch -o /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-dzlcsnmmcewstdcaherenecqtxvr/MFR_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-fzkjggosngobtgdwwwhjavcearzp/MFR_Prefix.pch.gch MFR_Prefix.pch normal x86_64 objective-c++ com.apple.compilers.gcc.4_2
+r0
+
+CTouch /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app
+s282732429.741793
+e282732429.745145
+r1
+xTouch
+x/Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app
+lSLF07#2@57"Touch /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app282732429#282732429#0(0"0(0#0#0"32088589731823664#113"    cd /Users/noobs/Documents/Ogre/MFR    /usr/bin/touch -c /Users/noobs/Documents/Ogre/MFR/build/Debug/MFR.app0#
+
