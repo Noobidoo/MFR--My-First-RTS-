@@ -33,6 +33,7 @@
 		55C9A65E10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C9A65D10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib */; };
 		55C9A66010DA7D5700F68CDD /* RenderSystem_GL.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C9A65F10DA7D5700F68CDD /* RenderSystem_GL.dylib */; };
 		55C9A66210DA7D6000F68CDD /* RenderSystem_GL.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 55C9A65F10DA7D5700F68CDD /* RenderSystem_GL.dylib */; };
+		55FD909110E37DEF00F214FE /* FrameHandle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 55FD909010E37DEF00F214FE /* FrameHandle.cpp */; };
 		8D15AC2C0486D014006FF6A4 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A37F4B9FDCFA73011CA2CEA /* Credits.rtf */; };
 		8D15AC2F0486D014006FF6A4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165FFE840EACC02AAC07 /* InfoPlist.strings */; };
 		8D15AC320486D014006FF6A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A37F4B0FDCFA73011CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
@@ -107,6 +108,8 @@
 		55C9A63910DA657500F68CDD /* ogrehead.mesh */ = {isa = PBXFileReference; lastKnownFileType = file; path = ogrehead.mesh; sourceTree = "<group>"; };
 		55C9A65D10DA7D5700F68CDD /* Plugin_BSPSceneManager.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = Plugin_BSPSceneManager.dylib; path = ../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/Plugin_BSPSceneManager.dylib; sourceTree = SOURCE_ROOT; };
 		55C9A65F10DA7D5700F68CDD /* RenderSystem_GL.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; name = RenderSystem_GL.dylib; path = ../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/RenderSystem_GL.dylib; sourceTree = SOURCE_ROOT; };
+		55FD908F10E37DEF00F214FE /* FrameHandle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FrameHandle.h; sourceTree = "<group>"; };
+		55FD909010E37DEF00F214FE /* FrameHandle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FrameHandle.cpp; sourceTree = "<group>"; };
 		8D15AC360486D014006FF6A4 /* MFR-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "MFR-Info.plist"; sourceTree = "<group>"; };
 		8D15AC370486D014006FF6A4 /* MFR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MFR.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -187,6 +190,8 @@
 			children = (
 				2564AD2C0F5327BB00F57823 /* MFR_Prefix.pch */,
 				2A37F4B0FDCFA73011CA2CEA /* main.m */,
+				55FD908F10E37DEF00F214FE /* FrameHandle.h */,
+				55FD909010E37DEF00F214FE /* FrameHandle.cpp */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
@@ -325,6 +330,7 @@
 				8D15AC320486D014006FF6A4 /* main.m in Sources */,
 				5579D43110DA5AAF005E4FC3 /* MyOgre.mm in Sources */,
 				55C9A61E10DA625600F68CDD /* MyDocument.mm in Sources */,
+				55FD909110E37DEF00F214FE /* FrameHandle.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

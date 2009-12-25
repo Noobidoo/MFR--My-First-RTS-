@@ -1,7 +1,7 @@
 TMFR
 v7
 r0
-t283296706.513143
+t283351205.318488
 cCheck dependencies
 cProcessInfoPlistFile /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Info.plist MFR-Info.plist
 cCpResource build/Release/MFR.app/Contents/Resources/media.cfg media.cfg
@@ -19,9 +19,11 @@ cCpResource build/Release/MFR.app/Contents/Resources/Ogre.material Ogre.material
 cCpResource build/Release/MFR.app/Contents/Resources/ogrehead.mesh ogrehead.mesh
 cProcessPCH /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-gdddyxzwvgjuumcrthnoxmggdznp/MFR_Prefix.pch.gch MFR_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
 cProcessPCH++ /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-atoblgsbseberefhvbehypcepxgp/MFR_Prefix.pch.gch MFR_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-cmewuepxdjkdafgygyrdvbnqujvd/MFR_Prefix.pch.gch MFR_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
 cCompileC build/MFR.build/Release/MFR.build/Objects-normal/i386/main.o /Users/noobs/mmorts/Source/Mac/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
 cCompileC build/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o /Users/noobs/mmorts/Source/Mac/MyOgre.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
 cCompileC build/MFR.build/Release/MFR.build/Objects-normal/i386/MyDocument.o /Users/noobs/mmorts/Source/Mac/MyDocument.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
+cCompileC build/MFR.build/Release/MFR.build/Objects-normal/i386/FrameHandle.o /Users/noobs/mmorts/Source/Mac/FrameHandle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
 cLd /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR normal i386
 cGenerateDSYMFile /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app.dSYM /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR
 cPBXCp build/Release/MFR.app/Contents/PlugIns/Plugin_BSPSceneManager.dylib ../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/Plugin_BSPSceneManager.dylib
@@ -2502,6 +2504,17 @@ c000000004B2A2B1D000000000000681F
 t1261054749
 s26655
 
+N/Users/noobs/mmorts/Source/Mac/FrameHandle.cpp
+c000000004B33608F0000000000000128
+t1261658255
+s296
+i"FrameHandle.h"
+
+N/Users/noobs/mmorts/Source/Mac/FrameHandle.h
+c000000004B3360FA000000000000011F
+t1261658362
+s287
+
 N/Users/noobs/mmorts/Source/Mac/GreenSkin.jpg
 c000000004ABFD22200000000000096CA
 t1254085154
@@ -2533,11 +2546,12 @@ i<Cocoa/Cocoa.h>
 i<Ogre/OgreOSXCocoaView.h>
 
 N/Users/noobs/mmorts/Source/Mac/MyOgre.mm
-c000000004B31E8FC0000000000000B52
-t1261562108
-s2898
+c000000004B3361110000000000000BB9
+t1261658385
+s3001
 i"MyOgre.h"
 i<Ogre/Ogre.h>
+i"FrameHandle.h"
 
 N/Users/noobs/mmorts/Source/Mac/Ogre.material
 c000000004ABFD2200000000000000527
@@ -2549,29 +2563,33 @@ c000000004ABFD2220000000000014DDF
 t1254085154
 s85471
 
+N/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/FrameHandle.o
+t1261658387
+s4381428
+
 N/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MFR.LinkFileList
-c000000004B328BC0000000000000011C
-t1261603776
-s284
+c000000004B334828000000000000017F
+t1261652008
+s383
 
 N/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MyDocument.o
 t1261603858
 s18008
 
 N/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o
-t1261603904
-s5888800
+t1261658403
+s5889204
 
 N/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/main.o
 t1261603858
 s4836
 
 N/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app
-t1261603906
+t1261658405
 s102
 
 N/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app.dSYM
-t1261603906
+t1261658405
 s102
 
 N/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Frameworks/Ogre.framework
@@ -2583,8 +2601,8 @@ t1261603776
 s1298
 
 N/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR
-t1261603906
-s27756
+t1261658404
+s30868
 
 N/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/PkgInfo
 t1261603776
@@ -11931,6 +11949,10 @@ N/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/Shared
 t1261603798
 s55502640
 
+N/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-cmewuepxdjkdafgygyrdvbnqujvd/MFR_Prefix.pch.gch
+t1261652009
+s2519408
+
 N/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-cmpktdwkopuyohaatviutwwrhmkk/MFR_Prefix.pch.gch
 t1261603297
 s55502640
@@ -12018,7 +12040,20 @@ s1482
 
 CCheck dependencies
 r0
-lSLF07#2@18"Check dependencies283296635#283296635#0(0"0(0#1#0"4300885448#0"0#
+lSLF07#2@18"Check dependencies283351195#283351195#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/MFR.build/Release/MFR.build/Objects-normal/i386/FrameHandle.o /Users/noobs/mmorts/Source/Mac/FrameHandle.cpp normal i386 c++ com.apple.compilers.gcc.4_2
+s283351164.388319
+e283351187.081811
+r1
+xCompileC
+xbuild/MFR.build/Release/MFR.build/Objects-normal/i386/FrameHandle.o
+x/Users/noobs/mmorts/Source/Mac/FrameHandle.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@54"Compile /Users/noobs/mmorts/Source/Mac/FrameHandle.cpp283351164#283351187#0(0"0(0#0#46"/Users/noobs/mmorts/Source/Mac/FrameHandle.cpp4300885448#1661"    cd /Users/noobs/mmorts/Source/Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-generated-files.hmap -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-project-headers.hmap -F/Users/noobs/mmorts/Source/Mac/build/Release -F/Users/noobs/mmorts/Source/Mac -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin/Ogre.framework -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin -I/Users/noobs/mmorts/Source/Mac/build/Release/include -I../../sdk/bin/Ogre.framework/Headers -I../../sdk/bin/Ogre.framework/Headers/OSX -I../../sdk/bin/Ogre.framework/Headers/Threading -I/Users/noobs/mmorts/Source/Mac/../../sdk/include -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/DerivedSources/i386 -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/DerivedSources -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-cmewuepxdjkdafgygyrdvbnqujvd/MFR_Prefix.pch -c /Users/noobs/mmorts/Source/Mac/FrameHandle.cpp -o /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/FrameHandle.o0#
 
 CCompileC build/MFR.build/Release/MFR.build/Objects-normal/i386/MyDocument.o /Users/noobs/Documents/Ogre/MFR/MyDocument.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282743985.893803
@@ -12078,8 +12113,8 @@ o/Users/noobs/Documents/Ogre/MFR/MyOgre.mm:31: warning: '...' as arguments.)
 lSLF07#2@49"Compile /Users/noobs/Documents/Ogre/MFR/MyOgre.mm283254912#283254920#0(522"/Users/noobs/Documents/Ogre/MFR/MyOgre.mm: In function 'void -[MyOgre applicationDidFinishLaunching:](MyOgre*, objc_selector*, NSNotification*)':/Users/noobs/Documents/Ogre/MFR/MyOgre.mm:31: warning: 'MyOgre' may not respond to '-locateResources'/Users/noobs/Documents/Ogre/MFR/MyOgre.mm:31: warning: (Messages without a matching method signature/Users/noobs/Documents/Ogre/MFR/MyOgre.mm:31: warning: will be assumed to return 'id' and accept/Users/noobs/Documents/Ogre/MFR/MyOgre.mm:31: warning: '...' as arguments.)2(22@46"'MyOgre' may not respond to '-locateResources'283254917#146#102#0(6@41"/Users/noobs/Documents/Ogre/MFR/MyOgre.mm283254908#31#0#31#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)283254917#248#101#0(6@41"/Users/noobs/Documents/Ogre/MFR/MyOgre.mm283254908#31#0#31#0#0"0(0#0#41"/Users/noobs/Documents/Ogre/MFR/MyOgre.mm4300885448#1491"    cd /Users/noobs/Documents/Ogre/MFR    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/MFR-generated-files.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/MFR-project-headers.hmap -F/Users/noobs/Documents/Ogre/MFR/build/Release -F/Users/noobs/Documents/Ogre/MFR -I/Users/noobs/Documents/Ogre/MFR/build/Release/include -IOgre.framework/Headers -IOgre.framework/Headers/OSX -IOgre.framework/Headers/Threading -I/usr/local/include -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/DerivedSources/i386 -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/DerivedSources -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-dwnayhwrmdpouvboeaolonwzliwz/MFR_Prefix.pch -c /Users/noobs/Documents/Ogre/MFR/MyOgre.mm -o /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o0#
 
 CCompileC build/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o /Users/noobs/mmorts/Source/Mac/MyOgre.mm normal i386 objective-c++ com.apple.compilers.gcc.4_2
-s283296653.697231
-e283296704.449313
+s283351195.837333
+e283351203.738725
 r1
 xCompileC
 xbuild/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o
@@ -12089,11 +12124,11 @@ xi386
 xobjective-c++
 xcom.apple.compilers.gcc.4_2
 o/Users/noobs/mmorts/Source/Mac/MyOgre.mm: In function 'void -[MyOgre applicationDidFinishLaunching:](MyOgre*, objc_selector*, NSNotification*)':
-o/Users/noobs/mmorts/Source/Mac/MyOgre.mm:31: warning: 'MyOgre' may not respond to '-locateResources'
-o/Users/noobs/mmorts/Source/Mac/MyOgre.mm:31: warning: (Messages without a matching method signature
-o/Users/noobs/mmorts/Source/Mac/MyOgre.mm:31: warning: will be assumed to return 'id' and accept
-o/Users/noobs/mmorts/Source/Mac/MyOgre.mm:31: warning: '...' as arguments.)
-lSLF07#2@48"Compile /Users/noobs/mmorts/Source/Mac/MyOgre.mm283296653#283296704#0(517"/Users/noobs/mmorts/Source/Mac/MyOgre.mm: In function 'void -[MyOgre applicationDidFinishLaunching:](MyOgre*, objc_selector*, NSNotification*)':/Users/noobs/mmorts/Source/Mac/MyOgre.mm:31: warning: 'MyOgre' may not respond to '-locateResources'/Users/noobs/mmorts/Source/Mac/MyOgre.mm:31: warning: (Messages without a matching method signature/Users/noobs/mmorts/Source/Mac/MyOgre.mm:31: warning: will be assumed to return 'id' and accept/Users/noobs/mmorts/Source/Mac/MyOgre.mm:31: warning: '...' as arguments.)2(22@46"'MyOgre' may not respond to '-locateResources'283296700#145#101#0(6@40"/Users/noobs/mmorts/Source/Mac/MyOgre.mm283254908#31#0#31#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)283296700#246#100#0(6@40"/Users/noobs/mmorts/Source/Mac/MyOgre.mm283254908#31#0#31#0#0"0(0#0#40"/Users/noobs/mmorts/Source/Mac/MyOgre.mm4300885448#1660"    cd /Users/noobs/mmorts/Source/Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-generated-files.hmap -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-project-headers.hmap -F/Users/noobs/mmorts/Source/Mac/build/Release -F/Users/noobs/mmorts/Source/Mac -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin/Ogre.framework -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin -I/Users/noobs/mmorts/Source/Mac/build/Release/include -I../../sdk/bin/Ogre.framework/Headers -I../../sdk/bin/Ogre.framework/Headers/OSX -I../../sdk/bin/Ogre.framework/Headers/Threading -I/Users/noobs/mmorts/Source/Mac/../../sdk/include -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/DerivedSources/i386 -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/DerivedSources -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-atoblgsbseberefhvbehypcepxgp/MFR_Prefix.pch -c /Users/noobs/mmorts/Source/Mac/MyOgre.mm -o /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o0#
+o/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: 'MyOgre' may not respond to '-locateResources'
+o/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: (Messages without a matching method signature
+o/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: will be assumed to return 'id' and accept
+o/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: '...' as arguments.)
+lSLF07#2@48"Compile /Users/noobs/mmorts/Source/Mac/MyOgre.mm283351195#283351203#0(517"/Users/noobs/mmorts/Source/Mac/MyOgre.mm: In function 'void -[MyOgre applicationDidFinishLaunching:](MyOgre*, objc_selector*, NSNotification*)':/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: 'MyOgre' may not respond to '-locateResources'/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: (Messages without a matching method signature/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: will be assumed to return 'id' and accept/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: '...' as arguments.)2(22@46"'MyOgre' may not respond to '-locateResources'283351201#145#101#0(6@40"/Users/noobs/mmorts/Source/Mac/MyOgre.mm283351185#32#0#32#0#26"'*' may not respond to '*'0(13@108"(Messages without a matching method signature will be assumed to return 'id' and accept '...' as arguments.)283351201#246#100#0(6@40"/Users/noobs/mmorts/Source/Mac/MyOgre.mm283351185#32#0#32#0#0"0(0#0#40"/Users/noobs/mmorts/Source/Mac/MyOgre.mm4300885448#1660"    cd /Users/noobs/mmorts/Source/Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-generated-files.hmap -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-project-headers.hmap -F/Users/noobs/mmorts/Source/Mac/build/Release -F/Users/noobs/mmorts/Source/Mac -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin/Ogre.framework -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin -I/Users/noobs/mmorts/Source/Mac/build/Release/include -I../../sdk/bin/Ogre.framework/Headers -I../../sdk/bin/Ogre.framework/Headers/OSX -I../../sdk/bin/Ogre.framework/Headers/Threading -I/Users/noobs/mmorts/Source/Mac/../../sdk/include -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/DerivedSources/i386 -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/DerivedSources -include /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-atoblgsbseberefhvbehypcepxgp/MFR_Prefix.pch -c /Users/noobs/mmorts/Source/Mac/MyOgre.mm -o /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o0#
 
 CCompileC build/MFR.build/Release/MFR.build/Objects-normal/i386/OgreController.o /Users/noobs/Documents/Ogre/MFR/OgreController.m normal i386 objective-c com.apple.compilers.gcc.4_2
 s282733468.376807
@@ -16610,13 +16645,13 @@ x/Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app/Contents/MacOS/MFR
 lSLF07#2@84"GenerateDSYMFile build/Release/MFR.app.dSYM build/Release/MFR.app/Contents/MacOS/MFR283254920#283254920#0(0"0(0#0#72"/Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app/Contents/MacOS/MFR4300885448#206"    cd /Users/noobs/Documents/Ogre/MFR    /Developer/usr/bin/dsymutil /Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app/Contents/MacOS/MFR -o /Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app.dSYM0#
 
 CGenerateDSYMFile /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app.dSYM /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR
-s283296706.102784
-e283296706.433779
+s283351204.910943
+e283351205.265344
 r1
 xGenerateDSYMFile
 x/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app.dSYM
 x/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR
-lSLF07#2@84"GenerateDSYMFile build/Release/MFR.app.dSYM build/Release/MFR.app/Contents/MacOS/MFR283296706#283296706#0(0"0(0#0#71"/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR4300885448#203"    cd /Users/noobs/mmorts/Source/Mac    /Developer/usr/bin/dsymutil /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR -o /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app.dSYM0#
+lSLF07#2@84"GenerateDSYMFile build/Release/MFR.app.dSYM build/Release/MFR.app/Contents/MacOS/MFR283351204#283351205#0(0"0(0#0#71"/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR4300885448#203"    cd /Users/noobs/mmorts/Source/Mac    /Developer/usr/bin/dsymutil /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR -o /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app.dSYM0#
 
 CLd /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/Objects-normal/i386/MFR normal i386
 s282732974.051272
@@ -16669,14 +16704,14 @@ xi386
 lSLF07#2@77"Link /Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app/Contents/MacOS/MFR283254920#283254920#0(0"0(0#0#0"4300885448#915"    cd /Users/noobs/Documents/Ogre/MFR    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/noobs/Documents/Ogre/MFR/build/Release -L/Users/noobs/Documents/Ogre/MFR -L/Users/noobs/Documents/Ogre/MFR/../sdk/lib/OGRE -F/Users/noobs/Documents/Ogre/MFR/build/Release -F/Users/noobs/Documents/Ogre/MFR -filelist /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/Objects-normal/i386/MFR.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework Ogre -lboost_date_time-mt -lboost_thread-mt -lFreeImage -lfreetype -lOIS -lzzip /Users/noobs/Documents/Ogre/MFR/../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/Plugin_BSPSceneManager.dylib /Users/noobs/Documents/Ogre/MFR/../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/RenderSystem_GL.dylib -o /Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app/Contents/MacOS/MFR0#
 
 CLd /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR normal i386
-s283296704.449535
-e283296706.102607
+s283351203.738938
+e283351204.910798
 r1
 xLd
 x/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR
 xnormal
 xi386
-lSLF07#2@76"Link /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR283296704#283296706#0(0"0(0#0#0"4300885448#1034"    cd /Users/noobs/mmorts/Source/Mac    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/noobs/mmorts/Source/Mac/build/Release -L/Users/noobs/mmorts/Source/Mac -L/Users/noobs/mmorts/Source/Mac/../../sdk/lib/OGRE -L/Users/noobs/mmorts/Source/Mac/../../sdk/lib/boost -F/Users/noobs/mmorts/Source/Mac/build/Release -F/Users/noobs/mmorts/Source/Mac -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin/Ogre.framework -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin -filelist /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MFR.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa /Users/noobs/mmorts/Source/Mac/../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/Plugin_BSPSceneManager.dylib /Users/noobs/mmorts/Source/Mac/../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/RenderSystem_GL.dylib -framework Ogre -lboost_date_time-mt -lboost_thread-mt -o /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR0#
+lSLF07#2@76"Link /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR283351203#283351204#0(0"0(0#0#0"4300885448#1034"    cd /Users/noobs/mmorts/Source/Mac    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch i386 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/noobs/mmorts/Source/Mac/build/Release -L/Users/noobs/mmorts/Source/Mac -L/Users/noobs/mmorts/Source/Mac/../../sdk/lib/OGRE -L/Users/noobs/mmorts/Source/Mac/../../sdk/lib/boost -F/Users/noobs/mmorts/Source/Mac/build/Release -F/Users/noobs/mmorts/Source/Mac -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin/Ogre.framework -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin -filelist /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MFR.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa /Users/noobs/mmorts/Source/Mac/../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/Plugin_BSPSceneManager.dylib /Users/noobs/mmorts/Source/Mac/../../../OgreSDK/CBuilds/trunk_32Bit/sdk/lib/OGRE/RenderSystem_GL.dylib -framework Ogre -lboost_date_time-mt -lboost_thread-mt -o /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR0#
 
 CPBXCp build/Release/MFR.app/Contents/Frameworks/Ogre.framework ../../sdk/bin/Ogre.framework
 s283296099.114940
@@ -16985,6 +17020,19 @@ xobjective-c++
 xcom.apple.compilers.gcc.4_2
 lSLF07#2@25"Precompile MFR_Prefix.pch282732944#282732951#0(0"0(0#0#46"/Users/noobs/Documents/Ogre/MFR/MFR_Prefix.pch4300885448#1318"    cd /Users/noobs/Documents/Ogre/MFR    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/MFR-generated-files.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/MFR-project-headers.hmap -F/Users/noobs/Documents/Ogre/MFR/build/Release -F/Users/noobs/Documents/Ogre/MFR -I/Users/noobs/Documents/Ogre/MFR/build/Release/include -I/usr/local/include -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/DerivedSources/x86_64 -I/Users/noobs/Documents/Ogre/MFR/build/MFR.build/Release/MFR.build/DerivedSources -c /Users/noobs/Documents/Ogre/MFR/MFR_Prefix.pch -o /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-bzxkbavepkmfbjgikwccgibdzlgg/MFR_Prefix.pch.gch0#
 
+CProcessPCH++ /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-cmewuepxdjkdafgygyrdvbnqujvd/MFR_Prefix.pch.gch MFR_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_2
+s283344808.907275
+e283344809.398964
+r1
+xProcessPCH++
+x/var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-cmewuepxdjkdafgygyrdvbnqujvd/MFR_Prefix.pch.gch
+xMFR_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@25"Precompile MFR_Prefix.pch283344808#283344809#0(0"0(0#0#45"/Users/noobs/mmorts/Source/Mac/MFR_Prefix.pch3419202321905706496#1563"    cd /Users/noobs/mmorts/Source/Mac    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -Os -mdynamic-no-pic -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -fvisibility=hidden -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-generated-files.hmap -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-own-target-headers.hmap -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-all-target-headers.hmap -iquote /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/MFR-project-headers.hmap -F/Users/noobs/mmorts/Source/Mac/build/Release -F/Users/noobs/mmorts/Source/Mac -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin/Ogre.framework -F/Users/noobs/mmorts/Source/Mac/../../sdk/bin -I/Users/noobs/mmorts/Source/Mac/build/Release/include -I../../sdk/bin/Ogre.framework/Headers -I../../sdk/bin/Ogre.framework/Headers/OSX -I../../sdk/bin/Ogre.framework/Headers/Threading -I/Users/noobs/mmorts/Source/Mac/../../sdk/include -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/DerivedSources/i386 -I/Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/DerivedSources -c /Users/noobs/mmorts/Source/Mac/MFR_Prefix.pch -o /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-cmewuepxdjkdafgygyrdvbnqujvd/MFR_Prefix.pch.gch0#
+
 CProcessPCH++ /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-craipebodfxygiexdxktzzpeiyzi/MFR_Prefix.pch.gch MFR_Prefix.pch normal i386 objective-c++ com.apple.compilers.gcc.4_2
 s283296208.866818
 e283296217.864002
@@ -17094,10 +17142,10 @@ x/Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app
 lSLF07#2@59"Touch /Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app283254920#283254920#0(0"0(0#0#0"4300885448#115"    cd /Users/noobs/Documents/Ogre/MFR    /usr/bin/touch -c /Users/noobs/Documents/Ogre/MFR/build/Release/MFR.app0#
 
 CTouch /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app
-s283296706.434600
-e283296706.513064
+s283351205.266294
+e283351205.318381
 r1
 xTouch
 x/Users/noobs/mmorts/Source/Mac/build/Release/MFR.app
-lSLF07#2@58"Touch /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app283296706#283296706#0(0"0(0#0#0"4300885448#113"    cd /Users/noobs/mmorts/Source/Mac    /usr/bin/touch -c /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app0#
+lSLF07#2@58"Touch /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app283351205#283351205#0(0"0(0#0#0"4300885448#113"    cd /Users/noobs/mmorts/Source/Mac    /usr/bin/touch -c /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app0#
 

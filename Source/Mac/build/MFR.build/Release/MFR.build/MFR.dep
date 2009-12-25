@@ -1,11 +1,10 @@
 00000000000000000000000000000000 2e78a602a9ac53a4d4ab50bb917e5b30 ffffffffffffffffffffffffffffffff 102 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app.dSYM
-81d80f164a601ccdea21fde80a251b9d 2c5e7e03f6b198aff2842d82b6f19051 ffffffffffffffffffffffffffffffff 102 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app
-1dff3b4b4ac3cf572ede82a648c01029 da1c833e77f462472c11d3af297a0c0d ffffffffffffffffffffffffffffffff 27756 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR
+5e685400c592ec3f635fd79311f0f169 2c5e7e03f6b198aff2842d82b6f19051 ffffffffffffffffffffffffffffffff 102 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app
+c24f605dc5313fa5a7a0a8dd5315fadd da1c833e77f462472c11d3af297a0c0d ffffffffffffffffffffffffffffffff 30868 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/MacOS/MFR
+2028ef9d5b352d0eb0c587c2a0aa032c 3093c2a57fc5ac16e28561e49cc33830 ffffffffffffffffffffffffffffffff 5889204 /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o
+32b5f5685b7c67439ba5a5f93103d84f ed05ae7e9fbf7ea612db8f822ad6334f ffffffffffffffffffffffffffffffff 4381428 /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/FrameHandle.o
 2028ef9d1b8d9199b0c587c2a0acdae3 02ff0fa862751098c6c748a20339830d ffffffffffffffffffffffffffffffff 18008 /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MyDocument.o
-2028ef9d1004c419b0c587c2a0aa02d8 3093c2a57fc5ac16e28561e49cc33830 ffffffffffffffffffffffffffffffff 5888800 /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/MyOgre.o
 ba2fde4b55ddf0c9ba6ed1b5831b0110 95bc280d426191b3b0f27a5554b4c4f5 ffffffffffffffffffffffffffffffff 4836 /Users/noobs/mmorts/Source/Mac/build/MFR.build/Release/MFR.build/Objects-normal/i386/main.o
-000000000bed769b000000000000016c 2028ef9d50a44d1cb0c587c2a0acd374 ffffffffffffffffffffffffffffffff 61871792 /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-atoblgsbseberefhvbehypcepxgp/MFR_Prefix.pch.gch
-000000000bed769b000000000000016c ba2fde4b55ddf0c9ba6ed1b5831b0170 ffffffffffffffffffffffffffffffff 55502640 /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-gdddyxzwvgjuumcrthnoxmggdznp/MFR_Prefix.pch.gch
 000000004abfd222000000000000d0a8 22a7d33115fe6ca9ad708c08d180fa96 ffffffffffffffffffffffffffffffff 53416 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Resources/Media/spheremap.png
 000000004abfd22200000000000096ca 8f563814cbdc9319fbee482b78ff6759 ffffffffffffffffffffffffffffffff 38602 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Resources/Media/GreenSkin.jpg
 000000004abfd221000000000000146b 4977dfd92ab13915a565c92280284e07 ffffffffffffffffffffffffffffffff 5227 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Resources/Media/dirt01.jpg
@@ -14,6 +13,9 @@ ba2fde4b55ddf0c9ba6ed1b5831b0110 95bc280d426191b3b0f27a5554b4c4f5 ffffffffffffff
 000000004abfd224000000000014e5d4 54099b535895894f2ec672afb9f6995f ffffffffffffffffffffffffffffffff 1369556 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Resources/Media/ogrehead.mesh
 000000004b2ff2e30000000000139cf8 12aa60ccb67a8ec912ad866ddd76aa2b ffffffffffffffffffffffffffffffff 1285372 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/PlugIns/RenderSystem_GL.dylib
 000000004b2ff4f200000000000528bc e3edf535e66ff4e16aeb2bb23641ea44 ffffffffffffffffffffffffffffffff 338108 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/PlugIns/Plugin_BSPSceneManager.dylib
+000000000bed769b000000000000016c 32b5f568509111ad9ba5a5f93103d914 ffffffffffffffffffffffffffffffff 2519408 /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-cmewuepxdjkdafgygyrdvbnqujvd/MFR_Prefix.pch.gch
+000000000bed769b000000000000016c 2028ef9d50a44d1cb0c587c2a0acd374 ffffffffffffffffffffffffffffffff 61871792 /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-atoblgsbseberefhvbehypcepxgp/MFR_Prefix.pch.gch
+000000000bed769b000000000000016c ba2fde4b55ddf0c9ba6ed1b5831b0170 ffffffffffffffffffffffffffffffff 55502640 /var/folders/79/79nWi9VOGeeilJ9nO3LJKU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/MFR_Prefix-gdddyxzwvgjuumcrthnoxmggdznp/MFR_Prefix.pch.gch
 00000000000000000000000000000000 6c854802cb36eb248322805e67294bff ffffffffffffffffffffffffffffffff 1369556 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Resources/ogrehead.mesh
 00000000000000000000000000000000 054f715f385aeaa179174b3c1c07a54d ffffffffffffffffffffffffffffffff 1319 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Resources/Ogre.material
 00000000000000000000000000000000 aeac496938b64c8c9125db3caa3c11ab ffffffffffffffffffffffffffffffff 53416 /Users/noobs/mmorts/Source/Mac/build/Release/MFR.app/Contents/Resources/spheremap.png

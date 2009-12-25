@@ -1,0 +1,9 @@
+/Users/noobs/mmorts/Source/Mac/MyOgre.mm: In function 'void -[MyOgre applicationDidFinishLaunching:](MyOgre*, objc_selector*, NSNotification*)':
+/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: 'MyOgre' may not respond to '-locateResources'
+/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: (Messages without a matching method signature
+/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: will be assumed to return 'id' and accept
+/Users/noobs/mmorts/Source/Mac/MyOgre.mm:32: warning: '...' as arguments.)
+/Users/noobs/mmorts/Source/Mac/MyOgre.mm:50: error: no matching function for call to 'Ogre::Root::addFrameListener()'
+/Users/noobs/mmorts/Source/Mac/../../sdk/bin/Ogre.framework/Headers/OgreRoot.h:457: note: candidates are: void Ogre::Root::addFrameListener(Ogre::FrameListener*)
+/Users/noobs/mmorts/Source/Mac/MyOgre.mm:51: error: expected `;' before 'mRoot'
+/Users/noobs/mmorts/Source/Mac/MyOgre.mm:49: warning: unused variable 'FrameH'

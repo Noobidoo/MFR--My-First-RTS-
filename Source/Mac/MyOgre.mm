@@ -8,6 +8,7 @@
 
 #import "MyOgre.h"
 #include <Ogre/Ogre.h>
+#import "FrameHandle.h"
 
 using namespace	Ogre;
 
@@ -45,6 +46,8 @@ using namespace	Ogre;
 	SceneNode* OgreNode = mSceneMgr->getRootSceneNode()->createChildSceneNode();
 	Entity* head = mSceneMgr->createEntity("Head", "ogrehead.mesh");
 	OgreNode->attachObject(head);
+	FrameListener * FrameH = new FrameHandle();
+	mRoot->addFrameListener(FrameH);
 	mRoot->startRendering();
 }
 
